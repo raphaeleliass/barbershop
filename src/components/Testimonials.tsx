@@ -45,7 +45,7 @@ export function Testimonials() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">{testimonial.name}</h3>
+                  <h3 className="font-semibold text-lg font-roboto">{testimonial.name}</h3>
                   <p className="text-gray-600 text-sm">{testimonial.role}</p>
                 </div>
               </div>

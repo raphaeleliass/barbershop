@@ -16,7 +16,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           <a
             href="#"
-            className="text-2xl font-bold text-white flex items-center gap-2"
+            className="text-2xl font-bold text-white flex items-center gap-2 font-roboto"
           >
             <span className="text-[#AB8B5A]">✂️</span>
             <span>Barbearia</span>

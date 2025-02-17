@@ -19,7 +19,7 @@ export function Hero() {
               Bem-vindo à Barbearia
             </span>
           </div>
-          <h1 className="text-7xl font-bold mb-6 text-white leading-tight">
+          <h1 className="text-7xl font-bold mb-6 text-white leading-tight font-roboto">
             Estilo e Tradição em{" "}
             <span className="text-[#AB8B5A]">Cada Corte</span>
           </h1>

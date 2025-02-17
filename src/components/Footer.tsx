@@ -20,14 +20,14 @@ export function Footer() {
       <Container>
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Barbearia</h3>
+            <h3 className="text-2xl font-bold mb-4 font-roboto">Barbearia</h3>
             <p className="text-gray-400">
               Estilo e tradição em cada corte, cuidando do visual dos nossos
               clientes com excelência e profissionalismo.
             </p>
           </div>
           <div>
-            <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
+            <h4 className="text-lg font-semibold mb-4 font-roboto">Links Rápidos</h4>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
@@ -42,7 +42,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-semibold mb-4">Redes Sociais</h4>
+            <h4 className="text-lg font-semibold mb-4 font-roboto">Redes Sociais</h4>
             <div className="flex gap-4">
               {socialLinks.map((link) => (
                 <a

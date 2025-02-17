@@ -42,7 +42,7 @@ export function Services() {
                   {service.icon}
                 </span>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-white">
+              <h3 className="text-xl font-semibold mb-3 text-white font-roboto">
                 {service.title}
               </h3>
               <p className="text-gray-400">{service.description}</p>

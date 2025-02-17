@@ -13,7 +13,7 @@ export function SectionTitle({ children, className = "" }: SectionTitleProps) {
         </span>
         <div className="w-12 h-[2px] bg-[#AB8B5A]" />
       </div>
-      <h2 className={`text-4xl font-bold text-[#1B1B1F] ${className}`}>
+      <h2 className={`text-4xl font-bold text-[#1B1B1F] font-roboto ${className}`}>
         {children}
       </h2>
     </div>

@@ -54,7 +54,9 @@ export function Contact() {
           </div>
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl font-semibold mb-2">Localização</h3>
+              <h3 className="text-xl font-semibold mb-2 font-roboto">
+                Localização
+              </h3>
               <p className="text-gray-600">
                 Rua da Barbearia, 123
                 <br />
@@ -64,7 +66,9 @@ export function Contact() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-2">Contato</h3>
+              <h3 className="text-xl font-semibold mb-2 font-roboto">
+                Contato
+              </h3>
               <p className="text-gray-600">
                 Telefone: (11) 99999-9999
                 <br />
@@ -72,7 +76,7 @@ export function Contact() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-2">
+              <h3 className="text-xl font-semibold mb-2 font-roboto">
                 Horário de Funcionamento
               </h3>
               <p className="text-gray-600">
